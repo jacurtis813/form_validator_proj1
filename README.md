@@ -16,3 +16,5 @@ Refresher course to recall the use of HTML, CSS, and JS.
     * Auto Tag Rename
     * Live Server
 ------------------------------------------------------
+8. Create the outline of our HTML file
+9. Save and test HTML

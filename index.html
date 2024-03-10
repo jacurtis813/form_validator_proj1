@@ -4,12 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>JAC-Techknwoledge-y Form Validator</title>
 </head>
-<!-- Create a comment in HTML-->
+<!--Body Starts Here-->
 
 <body>
+    <div class="container">
+        <!--Form Start-->
+        <form id="form" class="form">
+            <h2>Register With Us</h2>
+            <!-- Username input-->
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+                <small>Error Msg.</small>
+            </div>
+            <!-- Email input-->
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+                <small>Error Msg.</small>
+            </div>
+            <!-- Password Input-->
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <small>Error Msg.</small>
+            </div>
+            <!--Confirmation Step -->
+            <div class="form-control">
+                <label for="password_two">COnfirm Password</label>
+                <input type="text" id="password_two" placeholder="Confirm Password">
+                <small>Error Msg.</small>
+            </div>
+            <!-- Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
