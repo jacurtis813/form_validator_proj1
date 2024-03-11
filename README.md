@@ -21,3 +21,7 @@ Refresher course to recall the use of HTML, CSS, and JS.
 10. Create outlline of our CSS file
 11. Save and test CSS
 ------------------------------------------------------
+12. Start using CSS to clean and design the form 
+13. Save. Run and test HTML + CSS code together
+14. Play with variations of the sizing to see what it does in REAL TIME
+------------------------------------------------------
