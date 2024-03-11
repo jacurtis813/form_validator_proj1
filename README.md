@@ -18,3 +18,6 @@ Refresher course to recall the use of HTML, CSS, and JS.
 ------------------------------------------------------
 8. Create the outline of our HTML file
 9. Save and test HTML
+10. Create outlline of our CSS file
+11. Save and test CSS
+------------------------------------------------------
