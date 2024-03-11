@@ -25,3 +25,6 @@ Refresher course to recall the use of HTML, CSS, and JS.
 13. Save. Run and test HTML + CSS code together
 14. Play with variations of the sizing to see what it does in REAL TIME
 ------------------------------------------------------
+15. Create an assets folder for images
+16. Create an image using DALL-e and import into new_folder
+------------------------------------------------------
