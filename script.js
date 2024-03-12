@@ -13,6 +13,12 @@ function showError(input, message) {
     small.innerText = message;
 }
 
+// Function built to display the success submission
+function showSuccess(input) {
+    const formControl = input.parentElement;
+    formControl.className = 'form-control success'
+}
+
 
 // Event Listener for the form submission
 form.addEventListener('submit', function(e) {

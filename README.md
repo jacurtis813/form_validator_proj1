@@ -40,3 +40,7 @@ Refresher course to recall the use of HTML, CSS, and JS.
 25. Create additional varaibles to align with event listener
 26. Save changes. Run and test all code
 ------------------------------------------------------
+27. After testing the site- found a minor bug in the form (password was visible)
+28. In source HTML code updated the input type for the fourth field in the form changed type= text to type= password
+29. Save changes. Run and test new code
+------------------------------------------------------
