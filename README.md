@@ -94,3 +94,16 @@ Refresher course to recall the use of HTML, CSS, and JS.
 43. Checks for the password length (min and max)
 44. Save changes. Run and test JavaScript code
 ------------------------------------------------------
+45. Refine and refactor the code so that the checks are applied to all fieldname input id
+46. Make some adjustments to the initial function that we created to check the email regex
+47. Create a check to make sure that the passwords are matching
+48. Create additional HTML code to create a Reset Button
+49. Create additional CSS code to syle this button a bit differently from the submit button
+49. Lookup function to reset a form. Embed the code snippet and format to fit the naming convention that we are working with
+50. Save changes. Run and test code
+------------------------------------------------------
+## This completes the form_validator project 
+
+### Start Date: 03/10/2024 
+
+### End Date: 03/12/2024
