@@ -37,7 +37,18 @@ function checkRequired(inputArr) {
     });
 }
 
-// Get Fieldname
+// Check input length for the form input
+function checkLength(input, min, max) {
+    if(input.value.length < min) {
+        showError(input, `${getFieldName(input)} must be at least ${min} charcters`);
+    } else if(input.value.length > max) {
+        showError(input, `${getFieldName(input)} must be a max of ${max} charcters`);
+    } else {
+        showSuccess(input);
+    }
+}
+
+// Get FieldName to apply the Upper Case character for the Error Message
 function getFieldName(input) {
     return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
@@ -47,33 +58,7 @@ form.addEventListener('submit', function(e) {
     e.preventDefault();
 
     checkRequired([username, email, password, password_two]);
-/* THIS IS WHERE WE STARTED WITH THIS FORM CREATION
------------------------------------------------------
-    if (username.value == '') {
-        showError(username, 'Username is required')
-    } else {
-        showSuccess(username);
-    }
+    checkLength(username, 3, 3);
+    checkLength(password, 6, 25);
 
-    if (email.value == '') {
-        showError(email, 'Eamil is required')
-    } else if(!isValidEmail(email.value)) {
-        showError(email, 'Email is not valid.')
-    } else {
-        showSuccess(email);
-    }
-
-    if (password.value == '') {
-        showError(password, 'Password is required')
-    } else {
-        showSuccess(password);
-    }
-
-    if (password_two.value == '') {
-        showError(password_two, 'Confirm Password is required')
-    } else {
-        showSuccess(password_two);
-    }
-    ----------------------------------------------------
-    */
 });

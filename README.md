@@ -56,6 +56,41 @@ Refresher course to recall the use of HTML, CSS, and JS.
 37. Learn what how to reffne and refactor or JavaScript code
 38. Where to start? --> We will refine the if/ else conditionals within our script
 39. Refine and refactor our code to simplify how mamy lines of code we are creating and simplify repetitions
+
+    # Code Removed and Refactored: 
+    /* THIS IS WHERE WE STARTED WITH THIS FORM CREATION
+-----------------------------------------------------
+    if (username.value == '') {
+        showError(username, 'Username is required')
+    } else {
+        showSuccess(username);
+    }
+
+    if (email.value == '') {
+        showError(email, 'Eamil is required')
+    } else if(!isValidEmail(email.value)) {
+        showError(email, 'Email is not valid.')
+    } else {
+        showSuccess(email);
+    }
+
+    if (password.value == '') {
+        showError(password, 'Password is required')
+    } else {
+        showSuccess(password);
+    }
+
+    if (password_two.value == '') {
+        showError(password_two, 'Confirm Password is required')
+    } else {
+        showSuccess(password_two);
+    }
+    */
+
 40. Learn how to string together dot methods
 41. Save changes. Run and test new JavaScript
+------------------------------------------------------
+42. Apply additional checks within the JavaScript
+43. Checks for the password length (min and max)
+44. Save changes. Run and test JavaScript code
 ------------------------------------------------------
