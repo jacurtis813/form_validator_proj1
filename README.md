@@ -28,3 +28,8 @@ Refresher course to recall the use of HTML, CSS, and JS.
 15. Create an assets folder for images
 16. Create an image using DALL-e and import into new_folder
 ------------------------------------------------------
+17. Apply more CSS to the form
+18. Deploy in browser/ live to test the changes
+19. Remove reminder text from HTML
+20. Save changes. Run and test all code
+------------------------------------------------------
