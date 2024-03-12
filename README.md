@@ -33,3 +33,10 @@ Refresher course to recall the use of HTML, CSS, and JS.
 19. Remove reminder text from HTML
 20. Save changes. Run and test all code
 ------------------------------------------------------
+21. Start creating our JavaScript
+22. Where to start first? --> 
+23. Start with creating our constant (variables)
+24. Build the event listener to look for and listen to 
+25. Create additional varaibles to align with event listener
+26. Save changes. Run and test all code
+------------------------------------------------------
