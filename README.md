@@ -44,3 +44,12 @@ Refresher course to recall the use of HTML, CSS, and JS.
 28. In source HTML code updated the input type for the fourth field in the form changed type= text to type= password
 29. Save changes. Run and test new code
 ------------------------------------------------------
+30. Add if/ else conditionals within the event listener for all the form input fields
+31. Save changes. Run and test new JavaScript code
+32. Create new function to check that the email is a valid email
+33. Learn how to research and use Stack Overflow to locate pre-made code snippets or scripts that are already built
+------------------------------------------------------
+34. Troubleshoot/ debug why the function is not working
+35. found that the function synctax was not formatted properly. Repair function 
+36. Save changes. Run and test the new code
+------------------------------------------------------
