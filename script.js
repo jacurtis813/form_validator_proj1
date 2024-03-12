@@ -25,11 +25,30 @@ function isValidEmail(email) {
     return re.test(String(email).toLowerCase());
   }
 
+// Check required fields
+/* This will then use the function to run a loop. passing the input Array. Which will then checck each id that we have stored and passed through */
+function checkRequired(inputArr) {
+    inputArr.forEach(function(input) {
+        if(input.value.trim() === '') {
+            showError(input, `${getFieldName(input)} is required`);
+        } else {
+            showSuccess(input);
+        }
+    });
+}
+
+// Get Fieldname
+function getFieldName(input) {
+    return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+}
 
 // Event Listener for the form submission
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
+    checkRequired([username, email, password, password_two]);
+/* THIS IS WHERE WE STARTED WITH THIS FORM CREATION
+-----------------------------------------------------
     if (username.value == '') {
         showError(username, 'Username is required')
     } else {
@@ -55,4 +74,6 @@ form.addEventListener('submit', function(e) {
     } else {
         showSuccess(password_two);
     }
-})
+    ----------------------------------------------------
+    */
+});

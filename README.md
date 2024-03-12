@@ -53,3 +53,9 @@ Refresher course to recall the use of HTML, CSS, and JS.
 35. found that the function synctax was not formatted properly. Repair function 
 36. Save changes. Run and test the new code
 ------------------------------------------------------
+37. Learn what how to reffne and refactor or JavaScript code
+38. Where to start? --> We will refine the if/ else conditionals within our script
+39. Refine and refactor our code to simplify how mamy lines of code we are creating and simplify repetitions
+40. Learn how to string together dot methods
+41. Save changes. Run and test new JavaScript
+------------------------------------------------------
