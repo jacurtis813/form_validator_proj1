@@ -113,3 +113,24 @@ Refresher course to recall the use of HTML, CSS, and JS.
 3. Update the CSS code to align with the HTML
 4. Update the JS code to align with the CSS
 ------------------------------------------------------
+### Lookup how to create a required check for the dropdown selectors
+------------------------------------------------------
+5. Make a few minor edits to the CSS code to fix structure
+6. Remove the old code from the previous project
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="password_two">Confirm Password</label>
+                <input type="password" id="password_two" placeholder="Confirm Password">
+                <small></small>
+            </div>
+7. Save changes. Run and test code
+8. 
