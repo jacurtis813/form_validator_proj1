@@ -11,40 +11,88 @@
 <!--Body Starts Here-->
 
 <body>
+    <div class="img_container">
+        <img src="assets\blue frame.png" alt="Web Photo">
+    </div>
     <div class="container">
         <!--Form Start-->
         <form id="form" class="form">
-            <h2>Register With Us</h2>
-            <!-- Username input-->
+            <h2>Badge Report/Request</h2>
+            <!-- Lawson input-->
             <div class="form-control">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter Username">
+                <label for="lawson">Lawson Number</label>
+                <input type="text" id="lawson" placeholder="Enter Lawson">
                 <small></small>
             </div>
+            <!-- First Name -->
+            <div class="form-control">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" placeholder="Enter First Name">
+                <small></small>
+            </div>
+            <!-- Last Name -->
+            <div class="form-control">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" placeholder="Enter Last Name">
+                <small></small>
+            </div>
+            <!-- Last Name -->
+            <div class="form-control">
+                <label for="primar">Badge Reporting Section</label>
+                <!--<input type="text" id="primary" placeholder="Enter Primary Concern">-->
+                <div>
+                    <!-- Primary Concern Selector-->
+                    <select id="dropdown" class="dropdown" name="dropdown">
+                        <option value="default">Select</option>
+                        <option value="assign">Assign</option>
+                        <option value="resign">Resign</option>
+                        <option value="report">Report</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <small></small>
+
+                    <!-- Secondary Concern Selector-->
+                    <select id="dropdown" class="dropdown" name="dropdown">
+                        <option value="default">Select</option>
+                        <option value="id_badge">HOST ID Badge</option>
+                        <option value="centegix">Centegix Badge</option>
+                        <option value="lost">Lost/ Stolen Badge</option>
+                        <option value="damaged">Damaged Badge</option>
+                        <option value="bns_alert">Badge Not Seen</option>
+                    </select>
+                    <small></small>
+                </div>
+            </div>
             <!-- Email input-->
+            <div class="form-control">
+                <label for="notes">Email</label>
+                <textarea id="notes" placeholder="Enter notes" rows="4" cols="40"></textarea>
+                <small></small>
+            </div>
+            <!-- Omit this section of code
             <div class="form-control">
                 <label for="email">Email</label>
                 <input type="text" id="email" placeholder="Enter email">
                 <small></small>
             </div>
-            <!-- Password Input-->
             <div class="form-control">
                 <label for="password">Password</label>
                 <input type="password" id="password" placeholder="Enter password">
                 <small></small>
             </div>
-            <!--Confirmation Step -->
             <div class="form-control">
                 <label for="password_two">Confirm Password</label>
                 <input type="password" id="password_two" placeholder="Confirm Password">
                 <small></small>
             </div>
+            Omit this section of code -->
+
             <!-- Button -->
             <button type="submit">Submit</button>
             <button type="reset" class="reset">Reset</button>
         </form>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

@@ -107,3 +107,9 @@ Refresher course to recall the use of HTML, CSS, and JS.
 ### Start Date: 03/10/2024 
 
 ### End Date: 03/12/2024
+------------------------------------------------------
+1. Play with the existing code to make something new
+2. Recreate form and add new HTML code
+3. Update the CSS code to align with the HTML
+4. Update the JS code to align with the CSS
+------------------------------------------------------
