@@ -133,4 +133,9 @@ Refresher course to recall the use of HTML, CSS, and JS.
                 <small></small>
             </div>
 7. Save changes. Run and test code
-8. 
+8. Add in a logo to the assets folder within the projeect
+9. Remove unused photos from the assets folder
+10. Embed new backgraound image with the org. logo
+------------------------------------------------------
+### Lookup how to make the site more responsive
+------------------------------------------------------

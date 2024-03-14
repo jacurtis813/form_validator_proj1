@@ -70,6 +70,6 @@ form.addEventListener('submit', function (e) {
     checkRequired([lawson, first_name, last_name, dropdown]);
     checkLength(lawson, 6, 6);
     checkLength(first_name, 3, 30);
-    checkLength(last_name, 6, 30);
+    checkLength(last_name, 3, 30);
     checkDropDown(dropdown);
 });
